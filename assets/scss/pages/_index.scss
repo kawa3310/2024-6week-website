@@ -1,0 +1,103 @@
+body{
+  font-family: "Noto Serif TC", serif;
+}
+
+.bg-img{
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/banner.png?raw=true')no-repeat center center /cover;
+  width: 100%;
+  height: 621px;
+  .bg-title{
+    padding-top: 228px;
+    padding-left: 61px;
+  }
+}
+
+.bg-sm-img{
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/banner-sm.png?raw=true') no-repeat center center /cover;
+  width: 100%;
+  height: 551px;
+  .bg-sm-title{
+    padding-top: 337px;
+  }
+}
+
+.font-weight-thick{
+  font-weight: 900;
+}
+
+main{
+  img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+.bc{
+  &::before{
+    content: "";
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/bg-1.png?raw=true');
+    width: 217px;
+    height: 76px;
+    left: 0%;
+    bottom: 0%;
+    position: absolute;
+  }
+  &::after{
+    content: "";
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/bg-2.png?raw=true');
+    width: 300px;
+    height: 189px;
+    bottom: 0;
+    right: -20px;
+    position: absolute;
+  }
+}
+
+
+.bc-sm{
+  &::before{
+    content: "";
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/bg-2-sm.png?raw=true');
+    width: 115px;
+    height: 94px;
+    bottom: 0%;
+    right: 0;
+    position: absolute;
+  }
+}
+
+.nav-pills .nav-link.active {
+  background-color: #E0EFDE;
+}
+
+.bg-style{
+  width: 306px;
+  height: 236px;
+  position: relative;
+  span{
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    font-weight: bold;
+    border: 1px solid #E0EFDE;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #406C55;
+  }
+  p{
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    font-weight: bold;
+    color: #FFFDF5;
+  }
+  .bi-arrow-right{
+    position: absolute;
+    font-size: 21px;
+    top: 85%;
+    right: 3%;
+    font-weight: bold;
+    color: #FFFDF5;
+  }
+}

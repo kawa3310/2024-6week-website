@@ -1,0 +1,15 @@
+@import 'bootstrap/scss/functions';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&display=swap');
+
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@import './helps/variables';
+@import 'bootstrap/scss/bootstrap';
+
+@import './default/clear';
+@import './layout/navbar';
+@import './layout/swiper';
+
+//分頁樣式
+@import './pages/index';
+@import './pages/content';

@@ -1,0 +1,31 @@
+
+.bgimg-sm{
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/articles-1-sm.png?raw=true') no-repeat center center / cover;
+  width: 100%;
+  height: 240px;
+}
+
+.bgimg-2{
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/content-1.png?raw=true') no-repeat center center / cover;
+  width: 100%;
+  height: 390px;
+}
+
+.content{
+  max-width: 850px;
+  margin: 0 auto;
+  p{
+    margin: 0;
+  }
+}
+
+.graphic{
+  img{
+    width: 196px;
+  }
+  span{
+    font-weight: $font-weight-semibold;
+    color: #6C757D;
+  }
+}
+
