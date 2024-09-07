@@ -77,8 +77,16 @@
   transform: rotate(-135deg);
 }
 
-/* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
   background: linear-gradient( 263deg, rgb(0, 0, 0) 0%);
+}
+
+.navbar-collapse{
+  width: 100%;
+}
+
+
+.navbar-nav {
+  height: calc(100vh - 67px);
 }
